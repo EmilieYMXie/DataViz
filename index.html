@@ -4,11 +4,61 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Emilie's Web Project</title>
+		<style>
+		/* 
+		 * define a class called "div color"
+		 * give it properties, which affect the color of the text, the border width and color, as well as space between the top of the text and the border. 
+		 * */
+			.divcolor {
+				color:#008080;
+				border:5px solid teal;
+				padding-top: 5px;
+				
+			}
+			
+		</style>
 	</head>
 	<body>
 		<h1>Here lies a beloved page</h1>
+        <!-- Added another header -->
 		<h2>May it rest in peace.</h2>
-		<!-- Added another header -->
+		
+		<!-- Make a div with colored text inside it, semi colon appears within the quotation marks but no semi colon for div class names -->
+		<div class="divcolor" >Haters gonna hate hate hate hate hate</div>
+		<!-- Leaving second div in for comparison -->
+		<div style="color:#FF8080;border:5px solid #FF8080;" >I just wanna shake shake shake shake shake</div>
+	
+		<script>
+		/*
+		 * define some variables
+		 * "my___" can be substituted with the actual name pertaining to the information i.e. var age = 22;
+		 * "myObject" separate lines with commas, end with periods
+		 */
+		var myNumber = 22;	
+		var myString = "Here's a string!";
+		var myBool = true;
+		var myArray = [2,4,5,6,7];
+		var myObject = {aKey:"aValue",
+		                key2:"value2"};
+		/*
+		 * can put in any variable in console log
+		 */                
+		console.log(myNumber);
+		console.log(myArray[2]);
+		console.log(myObject.aKey);
+		
+		console.log(myObject);
+		/*
+		 * change aKey value from "aValue" to "newValue"
+		 */
+		myObject.aKey = "newValue";
+		console.log(myObject);
+		
+		var numberNumber = 15;
+		console.log(numberNumber+2);
+		
+		 
+		</script>		
 	</body>
 </html>
 
